@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset=<!DOCTYPE html>
-<html lang="id">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nur Muhammad Hidayatulloh | NOC & Network Engineer</title>
     
-    <meta name="description" content="Portofolio Nur Muhammad Hidayatulloh, NOC & Network Engineer. Menampilkan project infrastruktur jaringan, MikroTik, Linux, dan Network Automation via Python & Bash. Temukan solusi IT efisien melalui implementasi Zabbix monitoring, The Dude, serta manajemen perangkat Tp-link, TOTOLINK, Tenda, Ubiquiti, Ruijie, HIOSO, hingga sistem CCTV ip & analog.">
-    <meta name="keywords" content="NMHidayatulloh, Nur Muhammad Hidayatulloh, NOC, Network Engineer, MikroTik, Python, Zabbix, Network Automation, Indonesia">
+    <meta name="description" content="Portofolio Nur Muhammad Hidayatulloh, NOC & Network Engineer. Menampilkan project infrastruktur jaringan, MikroTik, Linux, dan Network Automation via Python & Bash. Temukan solusi IT efisien melalui implementasi Zabbix monitoring, The Dude, serta manajemen perangkat TP-Link, TOTOLINK, Tenda, Ubiquiti, Ruijie, HIOSO, hingga sistem CCTV IP & Analog.">
+    <meta name="keywords" content="NMHidayatulloh, Nur Muhammad Hidayatulloh, NOC, Network Engineer, MikroTik, Python, Zabbix, Network Automation, VibeCoding, AI, Indonesia">
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -39,7 +36,6 @@
             overflow-x: hidden;
         }
 
-        /* Animated Background Gradients */
         .bg-glow {
             position: fixed;
             top: 0;
@@ -52,13 +48,8 @@
                 radial-gradient(circle at 90% 80%, rgba(0, 217, 255, 0.05) 0%, transparent 40%);
         }
 
-        .container {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
 
-        /* Navbar */
         nav {
             padding: 1.5rem 0;
             display: flex;
@@ -69,14 +60,10 @@
             background: rgba(10, 12, 16, 0.8);
             backdrop-filter: blur(10px);
             z-index: 100;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
         }
 
-        .logo {
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: var(--text-main);
-        }
-
+        .logo { font-size: 1.2rem; font-weight: 700; color: var(--text-main); text-decoration: none;}
         .logo span { color: var(--primary-neon); }
 
         .nav-links a {
@@ -89,15 +76,8 @@
 
         .nav-links a:hover { color: var(--primary-neon); }
 
-        /* Hero Section */
-        .hero {
-            padding: 8rem 0 4rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-
+        .hero { padding: 8rem 0 4rem; display: flex; flex-direction: column; align-items: center; text-align: center; }
+        
         .badge {
             background: rgba(0, 245, 160, 0.1);
             color: var(--primary-neon);
@@ -109,25 +89,15 @@
             border: 1px solid rgba(0, 245, 160, 0.2);
         }
 
-        h1 {
-            font-size: 4rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            letter-spacing: -2px;
-        }
-
+        h1 { font-size: 4rem; font-weight: 700; margin-bottom: 1rem; letter-spacing: -2px; line-height: 1.1; }
+        
         .gradient-text {
             background: linear-gradient(90deg, var(--primary-neon), var(--secondary-neon));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
-        .hero p {
-            max-width: 600px;
-            color: var(--text-dim);
-            font-size: 1.1rem;
-            margin-bottom: 2.5rem;
-        }
+        .hero p { max-width: 650px; color: var(--text-dim); font-size: 1.1rem; margin-bottom: 2.5rem; }
 
         .btn-primary {
             background: var(--primary-neon);
@@ -137,22 +107,15 @@
             text-decoration: none;
             font-weight: 700;
             transition: 0.3s;
-            box-shadow: 0 0 20px rgba(0, 245, 160, 0.3);
+            box-shadow: 0 0 20px rgba(0, 245, 160, 0.2);
+            display: inline-block;
         }
 
-        .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 0 30px rgba(0, 245, 160, 0.5);
-        }
+        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 0 30px rgba(0, 245, 160, 0.4); }
+        .btn-outline { background: transparent; color: var(--primary-neon); border: 1px solid var(--primary-neon); }
 
-        /* Grid System (Glassmorphism) */
         section { padding: 6rem 0; }
-        
-        h2 {
-            font-size: 2rem;
-            margin-bottom: 3rem;
-            text-align: center;
-        }
+        h2 { font-size: 2rem; margin-bottom: 3rem; text-align: center; }
 
         .skills-grid {
             display: grid;
@@ -177,23 +140,11 @@
             transform: translateY(-5px);
         }
 
-        .card-icon {
-            font-size: 2rem;
-            color: var(--primary-neon);
-            margin-bottom: 1.5rem;
-        }
-
+        .card-icon { font-size: 2rem; color: var(--primary-neon); margin-bottom: 1.5rem; }
         .glass-card h3 { margin-bottom: 1rem; color: #fff; }
         .glass-card p { color: var(--text-dim); font-size: 0.95rem; flex-grow: 1; }
 
-        /* Tech Tags */
-        .tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-top: 1.5rem;
-        }
-
+        .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem; }
         .tag {
             background: rgba(255, 255, 255, 0.05);
             padding: 0.3rem 0.8rem;
@@ -203,59 +154,58 @@
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
-        /* Footer */
         footer {
             padding: 4rem 0;
             border-top: 1px solid rgba(255, 255, 255, 0.05);
             text-align: center;
             background: rgba(255,255,255,0.01);
+            margin-top: 2rem;
         }
 
         .socials { margin-bottom: 2rem; }
-        .socials a {
-            color: var(--text-dim);
-            font-size: 1.5rem;
-            margin: 0 1rem;
-            transition: 0.3s;
-        }
+        .socials a { color: var(--text-dim); font-size: 1.5rem; margin: 0 1rem; transition: 0.3s; }
         .socials a:hover { color: var(--primary-neon); }
 
-        @media (max-width: 768px) {
-            h1 { font-size: 2.5rem; }
-            .nav-links { display: none; }
-        }
+        @media (max-width: 768px) { h1 { font-size: 2.5rem; } .nav-links { display: none; } }
     </style>
 </head>
 <body>
 
     <div class="bg-glow"></div>
 
-    <nav class="container">
-        <div class="logo">NM<span>Hidayatulloh</span></div>
-        <div class="nav-links">
-            <a href="#about">Tentang</a>
-            <a href="#skills">Keahlian</a>
-            <a href="#projects">Project</a>
-            <a href="mailto:emailanda@gmail.com">Kontak</a>
+    <nav>
+        <div class="container" style="display: flex; justify-content: space-between; width: 100%;">
+            <a href="index.html" class="logo">NM<span>Hidayatulloh</span></a>
+            <div class="nav-links">
+                <a href="#about">Tentang</a>
+                <a href="#skills">Keahlian</a>
+                <a href="projects.html">Project</a>
+                <a href="mailto:emailanda@gmail.com">Kontak</a>
+            </div>
         </div>
     </nav>
 
     <main class="container">
         <section class="hero">
-            <div class="badge">Ready for new projects & new career opportunities</div>
+            <div class="badge">Open to Work & Ready for New Challenges</div>
             <h1>Nur Muhammad <br><span class="gradient-text">Hidayatulloh</span></h1>
-            <p>NOC & Network Engineer dengan pengalaman 4+ tahun di industri ISP. Berfokus pada keandalan infrastruktur jaringan, otomasi cerdas, dan sistem monitoring high-availability.</p>
-            <a href="#projects" class="btn-primary">Lihat Pekerjaan Saya</a>
+            <p>NOC & Network Engineer dengan 4+ tahun pengalaman di industri ISP. Berfokus pada keandalan infrastruktur jaringan, otomasi cerdas, dan sistem monitoring high-availability.</p>
+            <div style="display: flex; gap: 1rem;">
+                <a href="projects.html" class="btn-primary">Lihat Project</a>
+                <a href="#about" class="btn-primary btn-outline">Lebih Lanjut</a>
+            </div>
         </section>
 
         <section id="about">
             <div class="glass-card" style="text-align: center;">
-                <p style="font-size: 1.2rem;">Berbasis di Malang, saya mengelola infrastruktur jaringan ISP dengan pendekatan <strong>Automation-First</strong>. Saya mentransformasi operasional jaringan manual menjadi sistem cerdas yang terotomasi dan termonitor secara <em>real-time</em>, mengintegrasikan teknologi terkini termasuk kapabilitas AI dan VibeCoding untuk efisiensi maksimal.</p>
+                <p style="font-size: 1.15rem; max-width: 800px; margin: 0 auto;">
+                    Berbasis di Malang, saya mengelola infrastruktur jaringan ISP dengan pendekatan <strong>Automation-First</strong>. Saya mentransformasi operasional jaringan manual menjadi sistem cerdas yang terotomasi dan termonitor secara <em>real-time</em>, serta mengintegrasikan teknologi terkini termasuk kapabilitas AI (VibeCoding) untuk efisiensi maksimal.
+                </p>
             </div>
         </section>
 
         <section id="skills">
-            <h2>Core Expertise</h2>
+            <h2>Keahlian Infrastruktur</h2>
             <div class="skills-grid">
                 <div class="glass-card">
                     <i class="fas fa-network-wired card-icon"></i>
@@ -264,55 +214,22 @@
                     <div class="tags">
                         <span class="tag">MikroTik</span>
                         <span class="tag">Ubiquiti</span>
-                        <span class="tag">Ruijie</span>
+                        <span class="tag">Ruijie / RUCKUS</span>
                         <span class="tag">HIOSO OLT</span>
-                        <span class="tag">TP-Link</span>
-                        <span class="tag">TOTOLINK</span>
-                        <span class="tag">RUCKUS</span>
-                    </div>
-                </div>
-                
-        <section id="skills">
-            <h2>Basic Programing & VibeCoding</h2>
-            <div class="skills-grid">
-                <div class="glass-card">
-                    <i class="fas fa-network-wired card-icon"></i>
-                    <h3>Basic programing & VibeCode using AI</h3>
-                    <p>Optimasi dan efisiensi pekerjaan dengan AI untuk Vibe coding dan membuat program automasi sederhana</p>
-                    <div class="tags">
-                        <span class="tag">Basic Phython</span>
-                        <span class="tag">Basic Bash</span>
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">Gemini AI</span>
-                        <span class="tag">Claude AI</span>
-                        <span class="tag">Qween AI</span>
-                        <span class="tag">DeepSeek AI</span>
-                    </div>
-                </div>
-                
-                <div class="glass-card">
-                    <i class="fas fa-code card-icon"></i>
-                    <h3>Network Automation</h3>
-                    <p>Meningkatkan efisiensi dan mengurangi <em>human-error</em> melalui implementasi script otomatisasi untuk manajemen jaringan.</p>
-                    <div class="tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Bash</span>
-                        <span class="tag">Linux Admin (Ubuntu)</span>
-                        <span class="tag">API Integration</span>
+                        <span class="tag">TP-Link / TOTOLINK</span>
+                        <span class="tag">OSPF & VLAN</span>
                     </div>
                 </div>
 
                 <div class="glass-card">
                     <i class="fas fa-chart-line card-icon"></i>
                     <h3>Monitoring Systems</h3>
-                    <p>Penerapan sistem visualisasi data jaringan dan peringatan dini untuk menjaga performa dan <em>uptime</em> jaringan hingga 99%.</p>
+                    <p>Penerapan sistem visualisasi data jaringan dan peringatan dini untuk menjaga performa dan <em>uptime</em> hingga 99%.</p>
                     <div class="tags">
                         <span class="tag">Zabbix</span>
                         <span class="tag">The Dude</span>
                         <span class="tag">Cacti</span>
                         <span class="tag">MikroTik Graphing</span>
-                        <span class="tag">Telegram Bot</span>
                     </div>
                 </div>
 
@@ -321,42 +238,41 @@
                     <h3>Security & CCTV</h3>
                     <p>Instalasi dan konfigurasi sistem keamanan fisik terintegrasi dengan jaringan lokal untuk pengawasan komprehensif.</p>
                     <div class="tags">
-                        <span class="tag">IP Camera</span>
-                        <span class="tag">Analog</span>
+                        <span class="tag">IP & Analog Camera</span>
                         <span class="tag">Hikvision</span>
                         <span class="tag">HiLook</span>
-                        <span class="tag">V380</span>
                         <span class="tag">Dahua</span>
+                        <span class="tag">V380</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="projects">
-            <h2>Featured Projects</h2>
+        <section id="programming">
+            <h2>Pemrograman & VibeCoding</h2>
             <div class="skills-grid">
                 <div class="glass-card">
-                    <div style="color: var(--primary-neon); font-weight: bold; margin-bottom: 0.5rem;">Network Automation</div>
-                    <h3>Zabbix Integrator</h3>
-                    <p>Sistem deteksi cerdas untuk memantau status redaman ONU pada OLT dan anomali traffic secara real-time melalui dashboard Zabbix, terintegrasi penuh dengan API dan notifikasi Telegram Bot.</p>
+                    <i class="fas fa-robot card-icon"></i>
+                    <h3>AI & VibeCoding</h3>
+                    <p>Pemanfaatan AI untuk mempercepat penulisan kode, troubleshooting, dan pembuatan program otomasi sederhana.</p>
+                    <div class="tags">
+                        <span class="tag">Gemini AI</span>
+                        <span class="tag">Claude AI</span>
+                        <span class="tag">Qwen AI</span>
+                        <span class="tag">DeepSeek</span>
+                    </div>
                 </div>
                 
                 <div class="glass-card">
-                    <div style="color: var(--secondary-neon); font-weight: bold; margin-bottom: 0.5rem;">Infrastructure</div>
-                    <h3>ISP Core Migration</h3>
-                    <p>Eksekusi migrasi routing core ISP tanpa downtime operasional dengan mengimplementasikan topologi OSPF multi-area yang presisi.</p>
-                </div>
-
-                <div class="glass-card">
-                    <div style="color: #f59e0b; font-weight: bold; margin-bottom: 0.5rem;">Kategori Project 3</div>
-                    <h3>Nama Project Placeholder</h3>
-                    <p>Deskripsi singkat tentang project ini. Jelaskan masalah yang diselesaikan, teknologi yang digunakan, dan hasil atau dampak positif dari implementasi yang Anda lakukan.</p>
-                </div>
-
-                <div class="glass-card">
-                    <div style="color: #ec4899; font-weight: bold; margin-bottom: 0.5rem;">Kategori Project 4</div>
-                    <h3>Nama Project Placeholder</h3>
-                    <p>Deskripsi singkat tentang project ini. Jelaskan masalah yang diselesaikan, teknologi yang digunakan, dan hasil atau dampak positif dari implementasi yang Anda lakukan.</p>
+                    <i class="fas fa-code card-icon"></i>
+                    <h3>Network Automation</h3>
+                    <p>Mengurangi <em>human-error</em> dan repetisi melalui implementasi script otomatisasi untuk manajemen jaringan harian.</p>
+                    <div class="tags">
+                        <span class="tag">Python (Dasar)</span>
+                        <span class="tag">Bash Scripting</span>
+                        <span class="tag">Linux Admin (Ubuntu)</span>
+                        <span class="tag">API & Telegram Bot</span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -365,12 +281,12 @@
     <footer>
         <div class="container">
             <div class="socials">
-                <a href="https://github.com/NMHidayatulloh"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/nmhidayatulloh"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/NMHidayatulloh" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/nmhidayatulloh" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="mailto:emailanda@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
             <p style="color: var(--text-dim); font-size: 0.9rem;">
-                &copy; 2026 Nur Muhammad Hidayatulloh
+                &copy; 2026 Nur Muhammad Hidayatulloh. All rights reserved.
             </p>
         </div>
     </footer>
