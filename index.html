@@ -25,7 +25,7 @@
             <div class="nav-links" id="nav-links">
                 <a href="#about">Tentang</a>
                 <a href="#skills">Keahlian</a>
-                <a href="projects.html">Project</a>
+                <a href="#projects">Project</a>
                 <a href="mailto:emailanda@gmail.com">Kontak</a>
             </div>
         </div>
@@ -37,7 +37,7 @@
             <h1>Nur Muhammad <br><span class="gradient-text">Hidayatulloh</span></h1>
             <p>NOC & Network Engineer dengan 4+ tahun pengalaman di industri ISP. Berfokus pada keandalan infrastruktur jaringan, otomasi cerdas, dan sistem monitoring high-availability.</p>
             <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
-                <a href="projects.html" class="btn-primary">Lihat Project</a>
+                <a href="#projects" class="btn-primary">Lihat Project</a>
                 <a href="#about" class="btn-primary btn-outline">Lebih Lanjut</a>
             </div>
         </section>
@@ -133,7 +133,63 @@
                 </div>
             </div>
         </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="skills-grid" style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
+                
+                <div class="glass-card">
+                    <div style="color: var(--primary-neon); font-weight: bold; margin-bottom: 0.5rem; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase;">Automation & Monitoring</div>
+                    <h3>Zabbix & Telegram Integrator</h3>
+                    <p>Sistem deteksi cerdas untuk memantau status redaman ONU pada OLT dan anomali traffic secara real-time melalui dashboard Zabbix, terintegrasi penuh dengan API dan notifikasi Telegram Bot.</p>
+                    <a href="projects.html" style="color: var(--primary-neon); text-decoration: none; font-size: 0.95rem; font-weight: 600; margin-top: 1rem; display: inline-block;">
+                        Lihat Detail Project <i class="fas fa-arrow-right" style="margin-left: 5px;"></i>
+                    </a>
+                </div>
+                
+                <div class="glass-card">
+                    <div style="color: var(--secondary-neon); font-weight: bold; margin-bottom: 0.5rem; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase;">Infrastructure</div>
+                    <h3>ISP Core Migration</h3>
+                    <p>Eksekusi migrasi routing core ISP tanpa downtime operasional dengan mengimplementasikan topologi OSPF multi-area yang presisi untuk mendistribusikan beban traffic secara aman.</p>
+                    <a href="projects.html" style="color: var(--secondary-neon); text-decoration: none; font-size: 0.95rem; font-weight: 600; margin-top: 1rem; display: inline-block;">
+                        Lihat Detail Project <i class="fas fa-arrow-right" style="margin-left: 5px;"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="projects.html" class="btn-primary btn-outline" style="border-radius: 50px; padding: 0.8rem 2.5rem;">
+                    Jelajahi Semua Project & Dokumentasi
+                </a>
+            </div>
+        </section>
+
     </main>
+
+    <footer>
+        <div class="container">
+            <div class="socials">
+                <a href="https://github.com/NMHidayatulloh" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/nmhidayatulloh" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:emailanda@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p style="color: var(--text-dim); font-size: 0.9rem;">
+                &copy; 2026 Nur Muhammad Hidayatulloh. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
 
     <footer>
         <div class="container">
