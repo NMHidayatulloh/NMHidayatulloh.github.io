@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nur Muhammad Hidayatulloh | NOC & Network Engineer</title>
-    
-    <meta name="description" content="Portofolio Nur Muhammad Hidayatulloh, NOC & Network Engineer. Menampilkan project infrastruktur jaringan, MikroTik, Linux, dan Network Automation via Python & Bash. Temukan solusi IT efisien melalui implementasi Zabbix monitoring, The Dude, serta manajemen perangkat TP-Link, TOTOLINK, Tenda, Ubiquiti, Ruijie, HIOSO, hingga sistem CCTV IP & Analog.">
-    <meta name="keywords" content="NMHidayatulloh, Nur Muhammad Hidayatulloh, NOC, Network Engineer, MikroTik, Python, Zabbix, Network Automation, VibeCoding, AI, Indonesia">
+    <title>Studi Kasus & Project | Nur Muhammad Hidayatulloh</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .case-study { margin-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; }
+        .case-study h4 { color: #fff; margin-bottom: 0.5rem; font-size: 1.1rem; }
+        .case-study p { margin-bottom: 1.2rem; font-size: 0.95rem; }
+        .case-study ul { margin-bottom: 1.5rem; padding-left: 1.5rem; color: var(--text-dim); font-size: 0.95rem; }
+        .case-study li { margin-bottom: 0.5rem; }
+        .highlight-box { background: rgba(0, 245, 160, 0.05); border-left: 3px solid var(--primary-neon); padding: 1rem; border-radius: 4px; margin-top: 1rem;}
+    </style>
 </head>
 <body>
-
     <div class="bg-glow"></div>
 
     <nav>
@@ -23,116 +28,84 @@
                 <i class="fas fa-bars"></i>
             </button>
             <div class="nav-links" id="nav-links">
-                <a href="#about">Tentang</a>
-                <a href="#skills">Keahlian</a>
-                <a href="projects.html">Project</a>
+                <a href="index.html#about">Tentang</a>
+                <a href="index.html#skills">Keahlian</a>
+                <a href="projects.html" class="active">Project</a>
                 <a href="mailto:emailanda@gmail.com">Kontak</a>
             </div>
         </div>
     </nav>
 
     <main class="container">
-        <section class="hero">
-            <div class="badge">Open to Work & Ready to Relocate</div>
-            <h1>Nur Muhammad <br><span class="gradient-text">Hidayatulloh</span></h1>
-            <p>NOC & Network Engineer dengan 4+ tahun pengalaman di industri ISP. Berfokus pada keandalan infrastruktur jaringan, otomasi cerdas, dan sistem monitoring high-availability.</p>
-            <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
-                <a href="projects.html" class="btn-primary">Lihat Project</a>
-                <a href="#about" class="btn-primary btn-outline">Lebih Lanjut</a>
-            </div>
-        </section>
+        <div class="page-header">
+            <h1>Arsip <span style="color: var(--primary-neon);">Studi Kasus</span></h1>
+            <p style="color: var(--text-dim);">Bedah teknis implementasi infrastruktur, otomasi, dan penyelesaian masalah di lapangan.</p>
+        </div>
 
-        <section id="about">
-            <div class="glass-card" style="text-align: center;">
-                <p style="font-size: 1.15rem; max-width: 800px; margin: 0 auto;">
-                    Berbasis di Ngantang, Kabupaten Malang, saya fleksibel dan terbuka untuk peluang kerja serta relokasi secara profesional, termasuk ke area Bali. Saya mengelola infrastruktur jaringan ISP dengan pendekatan <strong>Automation-First</strong>, mentransformasi operasional jaringan manual menjadi sistem cerdas yang terotomasi, termonitor secara <em>real-time</em>, dan terintegrasi dengan teknologi terkini (AI/VibeCoding).
-                </p>
-            </div>
-        </section>
-
-        <section id="skills">
-            <h2>Keahlian Infrastruktur</h2>
-            <div class="skills-grid">
-                <div class="glass-card">
-                    <i class="fas fa-network-wired card-icon"></i>
-                    <h3>Network Engineering</h3>
-                    <p>Optimasi routing dan switching skala besar menggunakan perangkat multi-vendor untuk menjamin stabilitas koneksi.</p>
-                    <div class="tags">
-                        <span class="tag">MikroTik</span>
-                        <span class="tag">Ubiquiti</span>
-                        <span class="tag">Ruijie / RUCKUS</span>
-                        <span class="tag">HIOSO OLT</span>
-                        <span class="tag">TP-Link / TOTOLINK</span>
-                        <span class="tag">OSPF & VLAN</span>
-                    </div>
-                </div>
-
-                <div class="glass-card">
-                    <i class="fas fa-chart-line card-icon"></i>
-                    <h3>Monitoring Systems</h3>
-                    <p>Penerapan sistem visualisasi data jaringan dan peringatan dini untuk menjaga performa dan <em>uptime</em> hingga 99%.</p>
-                    <div class="tags">
-                        <span class="tag">Zabbix</span>
-                        <span class="tag">The Dude</span>
-                        <span class="tag">Cacti</span>
-                        <span class="tag">MikroTik Graphing</span>
-                    </div>
-                </div>
-
-                <div class="glass-card">
-                    <i class="fas fa-video card-icon"></i>
-                    <h3>Security & CCTV</h3>
-                    <p>Instalasi dan konfigurasi sistem keamanan fisik terintegrasi dengan jaringan lokal untuk pengawasan komprehensif.</p>
-                    <div class="tags">
-                        <span class="tag">IP & Analog Camera</span>
-                        <span class="tag">Hikvision</span>
-                        <span class="tag">HiLook</span>
-                        <span class="tag">Dahua</span>
-                        <span class="tag">V380</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="programming">
-            <h2>Pemrograman & Sertifikasi</h2>
-            <div class="skills-grid">
-                <div class="glass-card">
-                    <i class="fas fa-robot card-icon"></i>
-                    <h3>AI & VibeCoding</h3>
-                    <p>Pemanfaatan AI untuk mempercepat penulisan kode, troubleshooting, dan pembuatan program otomasi sederhana.</p>
-                    <div class="tags">
-                        <span class="tag">Gemini AI</span>
-                        <span class="tag">Claude AI</span>
-                        <span class="tag">Qwen AI</span>
-                        <span class="tag">DeepSeek</span>
-                    </div>
-                </div>
+        <div class="project-list" style="grid-template-columns: 1fr; max-width: 900px; margin: 0 auto 5rem;">
+            
+            <div class="project-card">
+                <div class="project-category">Network Automation & Monitoring</div>
+                <h2 style="font-size: 2.2rem;">Zabbix & Telegram Integrator untuk OLT HIOSO</h2>
                 
-                <div class="glass-card">
-                    <i class="fas fa-code card-icon"></i>
-                    <h3>Network Automation</h3>
-                    <p>Mengurangi repetisi operasional melalui implementasi script otomatisasi untuk manajemen jaringan harian.</p>
-                    <div class="tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">Bash Scripting</span>
-                        <span class="tag">Linux (Ubuntu/Fedora)</span>
-                        <span class="tag">API & Telegram Bot</span>
-                    </div>
+                <img src="https://via.placeholder.com/1000x400/0f172a/00f5a0?text=Masukkan+Screenshot+Dashboard+Zabbix+Di+Sini" alt="Zabbix Dashboard" class="project-img">
+                
+                <div class="tags" style="margin-bottom: 2rem;">
+                    <span class="tag">Zabbix 7.0</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Telegram API</span>
+                    <span class="tag">HIOSO OLT</span>
                 </div>
 
-                <div class="glass-card">
-                    <i class="fas fa-certificate card-icon"></i>
-                    <h3>Sertifikasi & Kursus</h3>
-                    <p>Berkomitmen pada pengembangan diri berkelanjutan melalui sertifikasi profesional dan kursus intensif.</p>
-                    <div class="tags">
-                        <span class="tag" style="border-color: var(--primary-neon);">MTCNA (In Progress)</span>
-                        <span class="tag" style="border-color: var(--primary-neon);">MTCRE (In Progress)</span>
-                        <span class="tag">RevoU Data Analytics (Mar '26)</span>
+                <div class="case-study">
+                    <h4><i class="fas fa-exclamation-triangle" style="color: #f59e0b; margin-right: 8px;"></i> Latar Belakang Masalah</h4>
+                    <p>Di infrastruktur ISP, teknisi lapangan sering kali terlambat mengetahui adanya anomali traffic atau pelemahan sinyal redaman ONU pada pelanggan FTTH. Pengecekan manual melalui antarmuka OLT HIOSO sangat memakan waktu dan tidak efisien.</p>
+
+                    <h4><i class="fas fa-cogs" style="color: var(--secondary-neon); margin-right: 8px;"></i> Solusi Teknis</h4>
+                    <ul>
+                        <li>Mengintegrasikan OLT HIOSO dengan <strong>Zabbix</strong> untuk memantau status perangkat secara <em>real-time</em> menggunakan protokol SNMP/API.</li>
+                        <li>Mengembangkan <em>script</em> berbasis <strong>Python</strong> yang mendeteksi perubahan parameter kritis (seperti redaman optik yang melewati ambang batas).</li>
+                        <li>Membangun notifikasi via <strong>Telegram Bot API</strong> yang secara otomatis mengirimkan detail masalah, lokasi, dan ID perangkat langsung ke grup teknisi lapangan.</li>
+                    </ul>
+
+                    <h4><i class="fas fa-chart-bar" style="color: var(--primary-neon); margin-right: 8px;"></i> Hasil & Dampak (Impact)</h4>
+                    <div class="highlight-box">
+                        Waktu respons (Response Time) penanganan gangguan jaringan turun secara signifikan. Teknisi dapat melakukan tindakan preventif sebelum pelanggan menyadari adanya penurunan kualitas internet. Monitoring kini berjalan 24/7 tanpa perlu pengawasan layar terus-menerus.
                     </div>
                 </div>
             </div>
-        </section>
+
+            <div class="project-card">
+                <div class="project-category" style="color: var(--secondary-neon);">Core Infrastructure</div>
+                <h2 style="font-size: 2.2rem;">ISP Core Routing Migration Tanpa Downtime</h2>
+                
+                <img src="https://via.placeholder.com/1000x400/0f172a/00d9ff?text=Masukkan+Gambar+Topologi+Jaringan+Di+Sini" alt="Topologi Jaringan OSPF" class="project-img" style="border-color: rgba(0, 217, 255, 0.2);">
+                
+                <div class="tags" style="margin-bottom: 2rem;">
+                    <span class="tag">MikroTik</span>
+                    <span class="tag">OSPF Multi-Area</span>
+                    <span class="tag">VLAN</span>
+                </div>
+
+                <div class="case-study">
+                    <h4><i class="fas fa-exclamation-triangle" style="color: #f59e0b; margin-right: 8px;"></i> Latar Belakang Masalah</h4>
+                    <p>Pertumbuhan jumlah pelanggan dan perluasan area cakupan ISP menyebabkan <em>router core</em> lama mengalami beban prosesor (CPU Load) yang tinggi akibat penggunaan <em>Static Routing</em> yang terlalu masif dan manajemen jalur yang tidak redundan.</p>
+
+                    <h4><i class="fas fa-cogs" style="color: var(--secondary-neon); margin-right: 8px;"></i> Solusi Teknis</h4>
+                    <ul>
+                        <li>Merancang ulang topologi jaringan layer 3 dengan mengimplementasikan <strong>OSPF (Open Shortest Path First) Multi-Area</strong>.</li>
+                        <li>Melakukan segmentasi lalu lintas klien menggunakan sistem <strong>VLAN</strong> untuk memperkecil <em>broadcast domain</em>.</li>
+                        <li>Mengeksekusi migrasi dari <em>router</em> lama ke perangkat baru secara bertahap pada jendela pemeliharaan (<em>maintenance window</em>) di malam hari.</li>
+                    </ul>
+
+                    <h4><i class="fas fa-chart-bar" style="color: var(--primary-neon); margin-right: 8px;"></i> Hasil & Dampak (Impact)</h4>
+                    <div class="highlight-box">
+                        Migrasi berhasil dilakukan dengan <em>downtime</em> nyaris nol. Manajemen lalu lintas internet menjadi dinamis dan memiliki fitur <em>failover</em> otomatis (jaringan memiliki jalur cadangan jika salah satu *link* terputus). Kinerja CPU *router core* menurun hingga tingkat yang sangat stabil.
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </main>
 
     <footer>
